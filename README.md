@@ -25,7 +25,7 @@ FHIR Labels
 - ('days', 'DurationUnit')
 
 ## Major Steps
-- Install necessary library
+- Install necessary libraries
 - Import the libraries
 - Create training data with labels
     - Split the sentence into tokens
