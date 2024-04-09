@@ -1,10 +1,10 @@
 # Prescription-Parser
 
 ## Aim
-Build a Doctor Prescription Parser with the help of CRF model
+Build a Doctor Prescription Parser with the help of the CRF model
 
 ## Task
-Build a Prescription Parser that takes a prescription (sentence) as an input and find / label the words in that sentence with one of the already pre-defined labels
+Build a Prescription Parser that takes a prescription (sentence) as an input and find/label the words in that sentence with one of the already pre-defined labels
 
 ## Problem
 SEQUENCE PREDICTION - Label words in a sentence
@@ -33,8 +33,6 @@ FHIR Labels
     - Create triples
 - Extract features
 - Split the data into training and testing set
-- Create CRF model
-- Save the CRF model
-- Load the CRF model
+- Train a CRF model
 - Predict on test data
-- Finding accuracy
+- Do sample predictions
